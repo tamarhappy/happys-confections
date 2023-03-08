@@ -1,15 +1,15 @@
 body {
-    background-color: rgb(211, 102, 139);
     font-family: 'Times New Roman', Times, serif;
     justify-content: center;
     align-items: center;
-    display: grid;
     grid-template-columns: 0cap;
+    max-width: 100%;
+    margin: 0;
 }
 
 .banner-wrap {
     background-image: url(https://wallpaperaccess.com/full/740189.jpg);
-    text-align: center;
+    height: 900px;
 }
 
 section{
@@ -52,7 +52,6 @@ nav{
     align-items: center;
     padding: 0 32px;
     height: 100px;
-    margin-right: 2px;
 }
 
 .logo{
@@ -83,17 +82,32 @@ span{
 .masthead-avatar {
     width: 600px;
     height: 400px;
+    margin-left: 400px;
 }
 
 .section-line {
-    text-align: center;
+    text-align: right;
     width: 800px;
-    height: 800px;
-    margin-left: 250px;
+    height: 0px;
+    margin-left: 150px;
+    padding-bottom: 200px;
 }
 
 .masthead-heading {
-    margin-bottom: 500px;
+    text-align: center;
+}
+
+.main-pics {
+    background-image: url(/assets/background-texture.png);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.img-1 {
+    margin-left: 50px;
+    height: 520px;
+    width: 450px;
+    border-radius: 10px;
 }
 
 form{
