@@ -1,0 +1,144 @@
+body {
+    background-color: rgb(211, 102, 139);
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 0cap;
+}
+
+.banner-wrap {
+    background-image: url(https://wallpaperaccess.com/full/740189.jpg);
+    text-align: center;
+}
+
+section{
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+}
+
+div{
+    text-align: left;
+}
+footer{
+    background-color: rgb(160, 37, 84);
+    text-align: center;
+    font-size: large;
+    border-radius: 50px;
+    color: bisque;
+}
+
+header{
+    text-align: left;
+    text-decoration: solid;
+    background-color: white;
+    box-sizing: content-box;
+    border-radius: 1px;
+    border-color: black;
+    color: bisque;
+}
+
+.nav-img {
+    width: 80px;
+    height: 80px;
+}
+
+nav{
+    height: 90px;
+    display: flex;
+    align-items: center;
+    padding: 0 32px;
+    height: 100px;
+    margin-right: 2px;
+}
+
+.logo{
+    color: rgb(17, 6, 12);
+    font-size: xx-large;
+    line-height: 80px;
+    padding: 0 5px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navbar {
+    margin-left: 370px;
+}
+
+.nav-item {
+    color: black;
+}
+
+span{
+    float: right;
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 20px;
+    font-size: x-large;
+}
+
+.masthead-avatar {
+    width: 600px;
+    height: 400px;
+}
+
+.section-line {
+    text-align: center;
+    width: 800px;
+    height: 800px;
+    margin-left: 250px;
+}
+
+.masthead-heading {
+    margin-bottom: 500px;
+}
+
+form{
+    text-align: left;
+    font-size: large;
+    font-weight: bold;
+    display: list-item;
+}
+
+h1{
+    text-decoration: overline;
+    text-align: center;
+}
+
+h2{
+    text-align: left;
+    text-decoration: underline;
+}
+
+#order{
+    color: rgb(17, 10, 13) ;
+    padding: 4px;
+    border-radius: 8px;
+    background-color: rgb(175, 55, 95);
+    font-size: medium;
+    font-weight: bold;
+    box-sizing: content-box;
+}
+
+th{
+    text-decoration: underline;
+}
+
+div.about{
+    display: grid;
+    background-color: rgb(190, 51, 86);
+    text-align: left;
+    
+}
+
+div.portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 50px;
+    grid-template-columns: 1px;
+    text-align: left;
+    background-color: rgb(194, 78, 103)
+}
