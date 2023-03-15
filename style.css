@@ -23,13 +23,7 @@ section{
 div{
     text-align: left;
 }
-footer{
-    background-color: rgb(160, 37, 84);
-    text-align: center;
-    font-size: large;
-    border-radius: 50px;
-    color: bisque;
-}
+
 
 header{
     text-align: left;
@@ -138,10 +132,11 @@ span{
 }
 
 form{
-    text-align: left;
+    text-align: center;
     font-size: large;
     font-weight: bold;
     display: list-item;
+    list-style: none;
 }
 
 h1{
@@ -155,13 +150,21 @@ h2{
 }
 
 #order{
-    color: rgb(17, 10, 13) ;
-    padding: 4px;
-    border-radius: 8px;
-    background-color: rgb(175, 55, 95);
+    color:white ;
+    width: 70px;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color:palevioletred;
     font-size: medium;
     font-weight: bold;
     box-sizing: content-box;
+    margin-top: 70px;
+    cursor: pointer;
+}
+
+#order:hover {
+    background-color: rgb(160, 37, 84);
 }
 
 th{
@@ -231,6 +234,7 @@ th{
     margin-top: 50px;
     height: 750px;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .valentines h1 {
@@ -294,18 +298,144 @@ th{
     align-items: center;
 }
 
-div.about{
-    display: grid;
-    background-color: rgb(190, 51, 86);
+.sec-3 {
+    background-image: url(/assets/back.img3.svg);
+    background-repeat: no-repeat;
+    background-size: 1500px;
+    padding-bottom: 300px;
     text-align: left;
-    
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 100px;
+    border-radius: 0;
 }
 
-div.portfolio{
+.sec-3 h1 {
+    text-decoration: none;
+    text-align: left;
+    padding-top: 100px;
+    margin-left: 80px;
+}
+
+.sec-3 p { 
+    margin-left: 80px;
+    margin-right: 300px;
+}
+
+.email {
+    padding: 15px;
+    margin-left: 80px;
+    width: 500px;
+    border: none;
+    margin-top: 40px;
+}
+
+.sec-3 button {
+    padding: 14px;
+    font-weight: bold;
+    color: white;
+    background-color: teal;
+    border: none;
+    margin-left: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sec-3 button:hover {
+    background-color: darkslategrey;
+}
+
+.about {
+    background-color: #f2ece8;
+    padding: 150px;
+    background-image: url(/assets/back.img4.svg);
+    background-size: cover;
+}
+
+.about h1 {
+    text-decoration: none;
+    font-size: 50px;
+    margin-right: 600px;
+}
+
+.about-1 {
+    text-align: left;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.portfolio {
+    background-color: #f2ece8;
+    padding: 150px;
+    background-image: url(/assets/back.img4.svg);
+    background-size: cover;
+}
+
+.portfolio h1 {
+    text-decoration: none;
+    font-size: 50px;
+    margin-right: 600px;
+}
+
+.port-1 {
     display: flex;
     flex-wrap: wrap;
     grid-gap: 50px;
     grid-template-columns: 1px;
     text-align: left;
-    background-color: rgb(194, 78, 103)
+    font-size: larger;
+    font-weight: bold;
+}
+
+.cont-us {
+    background-color: #f2ece8;
+    padding: 150px;
+    background-image: url(/assets/back.img4.svg);
+    background-size: cover;
+}
+
+.cont-us h1 {
+    text-decoration: none;
+    font-size: 50px;
+    margin-right: 600px;
+}
+
+.order {
+    background-color: #f2ece8;
+    background-image: url(/assets/back.img4.svg);
+    background-size: cover;
+    padding: 150px;
+    margin-right: 120px;
+    margin-left: 120px;
+    border-radius: 0;
+}
+
+.order h2 {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.recipes {
+    grid-area: recipes;
+    grid-row-start: recipes;
+    grid-column-start: recipes;
+    grid-row-end: recipes;
+    grid-column-end: recipes;
+    list-style: none;
+    margin-left: 30px;
+}
+
+footer{
+    background-color: #f9fafb;
+    text-align: center;
+    font-size: large;
+    border-radius: 0;
+    padding-top: 60px;
+    color: black;
+    list-style: none;
+}
+
+.recipes h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #d95d4a;
 }
