@@ -439,3 +439,27 @@ footer{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #d95d4a;
 }
+
+.social-media {
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: 600px;
+}
+
+.social-media i {
+    border: 1px solid #d95d4a;
+    border-radius: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    width: 45px;
+    height: 30px;
+    padding-top: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-right: 1em;
+}
